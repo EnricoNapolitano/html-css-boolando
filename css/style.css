@@ -93,8 +93,82 @@ main {
     position: relative
 }
 
+
 main img {
     width: 100%;
+}
+
+/* HOVER ON IMG */
+#hover-fit {
+    display: none;
+}
+
+.card:hover #fit {
+    display: none;
+}
+
+.card:hover #hover-fit {
+    display: inline-block;
+}
+
+#hover-roses {
+    display: none;
+}
+
+.card:hover #roses {
+    display: none
+}
+
+.card:hover #hover-roses {
+    display: inline-block;
+}
+
+#hover-vestiti-pastello {
+    display: none;
+}
+
+.card:hover #vestiti-pastello {
+    display: none;
+}
+
+.card:hover #hover-vestiti-pastello {
+    display: inline-block;
+}
+
+#hover-unisex {
+    display: none;
+}
+
+.card:hover #unisex {
+    display: none;
+}
+
+.card:hover #hover-unisex {
+    display: inline-block;
+}
+
+#hover-stripe {
+    display: none;
+}
+
+.card:hover #stripe {
+    display: none;
+}
+
+.card:hover #hover-stripe {
+    display: inline-block;
+}
+
+#hover-maglione {
+    display: none;
+}
+
+.card:hover #maglione {
+    display: none;
+}
+
+.card:hover #hover-maglione {
+    display: inline-block;
 }
 
 .white-square {
