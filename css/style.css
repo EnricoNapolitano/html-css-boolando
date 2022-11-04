@@ -150,16 +150,42 @@ footer {
 footer > .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .legal-info {
-    border: 2px dashed white;
-    width: 100px;
+    color: white;
+    width: 500px;
     height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legal-info > ol {
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.legal-info a {
+    color: white;
+    text-decoration: none;
 }
 
 .social {
-    border: 2px dashed white;
-    width: 100px;
+    color: white;
+    width: 500px;
     height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-icon i {
+    padding-top: 2px;
+    padding-left: 8px;
 }
