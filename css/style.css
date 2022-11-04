@@ -20,7 +20,9 @@
 header {
     height: 70px;
     background-color: var(--custom-organge);
+}
 
+header > .container {
     display: flex;
     justify-content: space-between;
 }
@@ -57,3 +59,25 @@ header {
     width: 400px;
 }
 
+/* FOOTER */
+footer {
+    height: 90px;
+    background-color: var(--custom-black);
+}
+
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal-info {
+    border: 2px dashed white;
+    width: 100px;
+    height: 90px;
+}
+
+.social {
+    border: 2px dashed white;
+    width: 100px;
+    height: 90px;
+}
