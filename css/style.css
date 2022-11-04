@@ -1,0 +1,11 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* PALETTE COLORI  */
+:root {
+    --custom-organge: #ff6900;
+    --custom-black: #1a1a1a;
+}
