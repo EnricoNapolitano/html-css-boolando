@@ -31,6 +31,10 @@ header a {
 header {
     height: 70px;
     background-color: var(--custom-organge);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 header > .container {
