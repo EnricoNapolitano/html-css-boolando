@@ -9,3 +9,43 @@
     --custom-organge: #ff6900;
     --custom-black: #1a1a1a;
 }
+
+/* selettore da cancellare */
+body {
+    background-image: url('../img/boolando.png');
+    background-size: cover;
+}
+
+/* UTILS */
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    height: 70px;
+    background-color: var(--custom-organge);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-type {
+    border: 2px dashed #1a1a1a;
+    height: 70px;
+    width: 120px;
+}
+
+.logo {
+    border: 2px dashed #1a1a1a;
+    height: 70px;
+    width: 120px;
+}
+
+.header-icon {
+    border: 2px dashed #1a1a1a;
+    height: 70px;
+    width: 120px;
+}
+
