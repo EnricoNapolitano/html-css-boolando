@@ -2,12 +2,23 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* PALETTE COLORI  */
 :root {
     --custom-organge: #ff6900;
     --custom-black: #1a1a1a;
+}
+
+/* GENERICS */
+li {
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
 }
 
 /* UTILS */
@@ -25,24 +36,34 @@ header {
 header > .container {
     display: flex;
     justify-content: space-between;
-}
-
-.customer-type {
-    border: 2px dashed #1a1a1a;
-    height: 70px;
-    width: 120px;
+    align-items: center;
+    color: white;
 }
 
 .logo {
-    border: 2px dashed #1a1a1a;
-    height: 70px;
-    width: 120px;
+    height: 40px;
 }
 
+.customer-type {
+    width: 120px;
+    padding: 0;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
 .header-icon {
-    border: 2px dashed #1a1a1a;
     height: 70px;
     width: 120px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
 }
 
 /* MAIN */
